@@ -19,7 +19,7 @@ body {
     box-shadow: 10px 20px 30px hsl(241, 100%, 89%, 0.4);
     border-top-right-radius: 1.3em;
     border-bottom-right-radius: 1.3em;
-    transform: scale(1);
+    transform: scale(1.2);
 }
 
 .left-column, .right-column {
@@ -175,7 +175,7 @@ button:active {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     body {
         display: unset;
     }
@@ -184,6 +184,7 @@ button:active {
         flex-direction: column;
         width: 100%;
         box-shadow: unset;
+        transform: scale(1)
     }
 
     .left-column {
